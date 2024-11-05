@@ -1,0 +1,29 @@
+.slick-slide img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.slick-slider{
+    overflow: hidden;
+    margin-bottom: 0;
+    background: linear-gradient(to bottom right, #2F2D25 0%, #171612 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #2F2D25 0%, #171612 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #2F2D25 0%, #171612 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #2F2D25 0%, #171612 50%) top right / 50% 50% no-repeat;
+  background-blend-mode: luminosity;
+}
+.slick-next{
+    right: 20px;
+}
+
+.slick-prev {
+    left: 20px;
+    z-index: 999;
+  }
+  .slick-dots{
+    bottom: 15px;
+  }
+  .slick-dots li{
+    margin: 0 5px;
+  }
+  .slick-dots li button::before{
+    content: '-';
+    font-size: 64px;
+  }

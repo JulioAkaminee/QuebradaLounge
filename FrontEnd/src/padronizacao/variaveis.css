@@ -1,0 +1,28 @@
+/* Fonte raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* Fonte poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* fonte rodstore */
+@font-face {
+    font-family: Roadstore ;
+    src: url('../../public/assets/fonts/ROADSTORE\ Dafont.ttf');
+}
+
+
+:root{
+    --cor-primaria:#F2E63D;
+    --cor-secundaria:#171612;
+
+    /* fontes */
+
+    --font-size-xl: 2rem;  /* Extra Large */
+    --font-size-l: 1.5rem; /* Large */
+    --font-size-m: 1rem;   /* Medium */
+    --font-size-s: 0.875rem; /* Small */
+    --font-size-xs: 0.75rem; /* Extra Small */
+
+    --font-family-raleway: "Raleway", sans-serif;
+    --font-family-poppins: "Poppins", sans-serif;
+    --font-family-roadstore: "Roadstore", sans-serif;
+  
+}

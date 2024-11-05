@@ -1,0 +1,103 @@
+@import url('../pagesCSS/cadastroUsuario.css');
+
+.cadastro{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ padding: 60px 0;
+ background: linear-gradient(180deg, #fff, #d0d0d0);
+   
+}
+.containerFormCadastro:hover{
+   transform: translatey(-5px) ;
+
+
+}
+.containerFormCadastro{
+    background-color: var(--cor-primaria);
+    padding: 60px;
+    border-radius:8px;
+    transition: 600ms;
+    perspective: 1000px;
+
+}
+.containerFormCadastro h1{
+    color: #000;
+    font-family: var(--font-family-poppins);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.containerFormCadastro p{
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.formCadastro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.btnCadastro{
+    margin: 5px;
+    padding: 10px;
+   
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-family-raleway);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.formCadastro input{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    color: #000;
+    outline: none;
+    border: none;
+
+    font-family: var(--font-family-poppins);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.containerSenhaCadastro{
+    display: flex;
+    width: 100%;
+}
+.containerSenhaCadastro input{
+    width: 50%;
+}
+
+.linkParaLogin{
+    margin: 5px;
+    display: flex;
+   
+    text-align: start;
+}
+.linkParaLogin a{
+    margin: 0 5px;
+}

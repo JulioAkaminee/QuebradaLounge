@@ -1,0 +1,109 @@
+@import url('../../padronizacao/variaveis.css');
+
+
+
+.localizacao {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(180deg, #fff, #d0d0d0);
+  }
+  
+  .localizacao h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+  }
+  
+  .localizacao p {
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: 2rem;
+  }
+  
+  .localizacao iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.9s ease, box-shadow 0.3s ease; 
+  }
+  
+  .localizacao iframe:hover {
+    transform: translateY(-10px); /* Movimento para cima */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Sombra maior ao flutuar */
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+  }
+  .loader {
+    width: 50px;
+    aspect-ratio: 1;
+    --_c:no-repeat radial-gradient(farthest-side,#000000 92%,#0000);
+    background: 
+      var(--_c) top,
+      var(--_c) left,
+      var(--_c) right,
+      var(--_c) bottom;
+    background-size: 12px 12px;
+    animation: l7 1s infinite;
+  }
+  @keyframes l7 {to{transform: rotate(.5turn)}}
+
+  .botao-rota{
+    font-family: var(--font-family-raleway);
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background-color: none;
+    padding: 10px 15px;
+    
+    cursor: pointer;
+    transition: 300ms;
+    margin-top: 10px;
+    font-size: 24px;
+    border-radius: 12px;  
+    background-color: rgb(255, 255, 255);
+  }
+
+  .botao-rota:hover{
+    background-color: var(--cor-secundaria);
+    color: white;
+   
+  }
+  
+  
+   /* Responsividade  */
+  @media (max-width: 768px) {
+    .localizacao h1 {
+      font-size: 2rem;
+    }
+  
+    .localizacao p {
+      font-size: 1rem;
+    }
+  
+    .localizacao iframe {
+      height: 300px;
+    }
+  }
+  

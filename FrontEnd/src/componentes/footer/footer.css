@@ -1,0 +1,52 @@
+@import url('../../padronizacao/variaveis.css');
+
+footer{
+    background-color: var(--cor-secundaria);
+    color: white;
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer h2,h1{
+    font-size: var( --font-size-m);
+    text-align: center;
+    margin: 5px;
+    font-family: var( --font-family-raleway);
+    font-weight: 700;
+}
+
+footer p{
+    font-size: var( --font-size-s);
+    text-align: center;
+    font-family: var( --font-family-poppins);
+    font-weight: 400;
+}
+.footer_group{
+
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+
+/* Formas de pagamento */
+
+.img-payment{
+
+    width: 60px;
+    height: 50px;
+    margin:  5px;
+}
+
+/* baixe nosso aplicativo */
+#footer_download{
+ text-align: center;
+
+  img{
+    margin:  5px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,61 @@
+@import url('../../padronizacao/variaveis.css');
+
+.nosConheca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem; /* Espaçamento interno */
+    background: linear-gradient(180deg, #fff, #d0d0d0);
+    border-radius: 12px; /* Arredondar cantos */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.container {
+    font-family: var(--font-family-raleway);
+    color: var(--cor-secundaria);
+    padding: 70px 30px;
+    width: 90%; /* Ampliar a largura em telas menores */
+    max-width: 1200px; /* Definir uma largura máxima */
+    text-align: center;
+    margin: auto;
+}
+
+.titulo {
+    font-size: var(--font-size-xl);
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--cor-principal); /* Usar variável de cor */
+}
+
+.descricao {
+    font-size: var(--font-size-m);
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #000000; /* Cor do texto */
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 20px; /* Reduzir padding em telas menores */
+    }
+
+    .titulo {
+        font-size: var(--font-size-lg); /* Ajustar o tamanho do título */
+    }
+
+    .descricao {
+        font-size: var(--font-size-s); /* Ajustar o tamanho da descrição */
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: var(--font-size-m); /* Tamanho menor em telas muito pequenas */
+    }
+
+    .descricao {
+        font-size: 0.9rem; /* Reduzir ainda mais o tamanho do texto */
+    }
+}
